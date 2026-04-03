@@ -1,0 +1,21 @@
+name: kronar-proyecto
+version: 0.1.0.0
+
+ghc-options:
+  - -Wall
+  - -Wcompat
+  - -Widentities
+  - -Wincomplete-record-updates
+  - -Wincomplete-uni-patterns
+  - -Wmissing-home-modules
+  - -Wpartial-fields
+  - -Wredundant-constraints
+
+executables:
+  kronar-proyecto-exe:
+    main: Main.hs
+    source-dirs:
+      - app
+      - src
+    dependencies:
+      - base >= 4.7 && < 5
